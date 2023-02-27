@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+}
+
+section {
+    width: 640px;
+    margin: 0 auto;
+    padding: 25px 0 50px 0;
+}
+
+
+/************************** text styles *********************************/
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background-color: tan;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px #e8d9c5;
+    font-family: serif;
+}
+
+h2 {
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #937d62;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #937d62;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #937d62;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.italicized {
+    font-style: italic;
+}
+
+
+/************************** images & lists *********************************/
+
+img {
+    max-width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+ul {
+    padding-left: 20px;
+    font-style: italic;
+}
+
+
+/************************** positioned boxes *********************************/
+
+.box-paragraph {
+    width: 50%;
+    padding: 0 5px;
+    background-color: #544838;
+    color: #fff;
+}
+
+.box {
+    width: 398px;
+    height: 148px;
+    margin: 10px 0;
+    border: 2px solid #544838;
+}
+
+.relative {
+    /* add relative properties here */
+}
+
+.relative-2 {
+    /* add relative-2 properties here */
+}
+
+.absolute {
+    /* add absolute properties here */
+}
+
+.absolute-2 {
+    width: 200px;
+    height: 75px;
+    border: 2px solid #a89070;
+    /* add absolute-2 properties here */
+}
+
+.absolute-2 .box-paragraph {
+    width: 98%;
+    padding: 0 1%;
+    background-color: #a89070;
+}
+
+.fixed {
+    /* add fixed properties here */
+}
